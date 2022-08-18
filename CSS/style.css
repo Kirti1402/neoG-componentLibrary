@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 :root{
-    --primary-color:#065f46;
+    --primary-color:#d8b4fe;
     --border-color:#34d399;
 }
 *{
@@ -53,6 +53,23 @@ hr{
 .list-inline li{
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-top: 50px ;
+    border-top-left-radius: 1rem;
+}
+.navBrand{
+    font-weight:bolder;
+}
+.navigation .link{
+    text-align: right;
+}
+
+.navigation .active{
+font-weight: bold;
 }
 /* 
 .wrapper{

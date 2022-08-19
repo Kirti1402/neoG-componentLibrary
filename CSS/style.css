@@ -97,8 +97,9 @@ hr {
 .heroheading {
     padding-top: 1rem;
     color: var(--header-heading);
-    max-width: 350px;
-    margin: auto;
+    /* max-width: 350px;
+    margin: auto; */
+    text-align: center;
 
 }
 
@@ -117,6 +118,22 @@ hr {
     background-color: var(--section-dark);
     padding: 1rem;
     border-radius: 50px;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 50px;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
 
 /* 
